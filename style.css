@@ -279,15 +279,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.custom .quadrant.p0 {
-  filter: hue-rotate(0deg); /* blue */
-}
-.custom .quadrant.p1 {
-  filter: hue-rotate(90deg); /* red */
-}
-.custom .quadrant.p2 {
-  filter: hue-rotate(-120deg); /* green */
-}
+.custom .quadrant.p0,
+.custom .quadrant.p1,
+.custom .quadrant.p2,
 .custom .quadrant.p3 {
-  filter: hue-rotate(30deg); /* purple */
+  filter: none;
 }
